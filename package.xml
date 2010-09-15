@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Arbit_Meta</name>
+ <channel>till.pearfarm.org</channel>
+ <summary>So meta!</summary>
+ <description>This is a meta package to install Arbit's dependencies.</description>
+ <lead>
+  <name>Till Klampaeckel</name>
+  <user>till</user>
+  <email>till@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-15</date>
+ <time>16:01:19</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>
+* initial release
+ </notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="ArbitTracker_Meta" name="README.md" role="doc" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.1</min>
+   </pearinstaller>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.4.15</min>
+   </package>
+   <package>
+    <name>PHP_Depend-beta</name>
+    <channel>pear.pdepend.org</channel>
+    <min>0.9.19</min>
+   </package>
+   <package>
+    <name>PHP_Depend_Log_Arbit</name>
+    <channel>pear.pdepend.org</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+   </package>
+   <package>
+    <name>ConsoleTools</name>
+    <channel>components.ez.no</channel>
+   </package>
+   <package>
+    <name>phploc</name>
+    <channel>pear.phpunit.de</channel>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>xdebug</name>
+    <channel>pecl.php.net</channel>
+   </package>
+   <package>
+    <name>PHP_CodeSniffer_Standards_Arbit-beta</name>
+    <channel>pear.xplib.de</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+</package>
